@@ -36,9 +36,6 @@ body {
     display: block;
     min-height: 74px;
 }
-.region:hover{
-    background: #124904;
-}
 .canal{
     padding: 0.5rem 1.25rem;
     border-top: solid 1px #1D1D1D;
