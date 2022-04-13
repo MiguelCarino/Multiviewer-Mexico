@@ -16,22 +16,16 @@ $(".canal").click(function(e){
         activos--;
     }
     if(activos < 2){
-        $("iframe").css("height","790px").css("width","100%");
-    }
-    else if(activos < 3){
-        $("iframe").css("height","790px").css("width","49%");
+        $("iframe").css("height","600px").css("width","100%");
     }
     else if(activos < 5){
-        $("iframe").css("height","520px").css("width","49%");
-    }
-    else if(activos < 7){
-        $("iframe").css("height","460px").css("width","33%");
+        $("iframe").css("height","300px").css("width","49%");
     }
     else if(activos < 10){
-        $("iframe").css("height","340px").css("width","33%");
+        $("iframe").css("height","220px").css("width","33%");
     }
     else{
-        $("iframe").css("height","220px").css("width","24%");
+        $("iframe").css("height","150px").css("width","24%");
     }
 });
 
