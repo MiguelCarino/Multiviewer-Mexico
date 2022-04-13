@@ -31,7 +31,7 @@ $(".canal").click(function(e){
         $("iframe").css("height","340px").css("width","33%");
     }
     else{
-        $("iframe").css("height","290px").css("width","24%");
+        $("iframe").css("height","270px").css("width","24%");
     }
 });
 
