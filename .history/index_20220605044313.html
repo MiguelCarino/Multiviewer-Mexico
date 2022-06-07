@@ -77,18 +77,32 @@
                         <span>Test para canales pendientes</span>
                     </div>
                 </div>-->
+
                 <div class="region d-flex align-items-center" style="background-color: rgb(6, 94, 177); " >
-                    <button class="btn btn-secondary" id="int-toggle" onclick="expand()"><i class="fa fa-bars"></i></button>
-                    <h2 style="font-size: 28px;">International</h2>
+                    <button class="btn btn-secondary" id="int-toggle"><i class="fa fa-bars"></i></button>
+                    <h2 style="font-size: 28px;">__International</h2>
                 </div>
+                h2>Hide Div in JavaScript</h2>
+    <div id="myDiv" style="border:1px solid;color:red;">
+        <p>This is a paragraph in Div.</p>
+        <span>This is a span in Div.</span>
+    </div>
+    <br>
+    <div>
+    <button type="button" onclick="changeStyle()">Click Me</button>
+    </div>
+    <script>
+    function changeStyle(){
+        var element = document.getElementById("myDiv");
+        element.style.display = "none";
+    }
+    </script>
                 <script>
-                    function expand(){
-                        var element = document.getElementById("intDiv");
+                    function changeStyle(){
+                        var element = document.getElementById("myDiv");
                         element.style.display = "none";
                     }
                     </script>
-                <!--Comienza div oculto-->
-                <div id="intDiv" style="background-color: steelblue;">
                 <div class="canal d-flex align-items-center" activa="canal101">
                     <img src="logos/101.jpg" class="rounded-circle" height="55px" width="55px" alt="">
                     <div class="titulo">
@@ -160,8 +174,7 @@
                         <span>Al Jazeera</span>
                     </div>
                 </div>
-                </div>
-                <!--Fin div oculto-->
+
                 <div class="region d-flex align-items-center" style="background-color: rgb(6, 94, 177); " >
                     <h2>MX - México</h2>
                 </div>
