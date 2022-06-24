@@ -17,7 +17,7 @@
             <marquee style="color: aliceblue; padding-top: 5px;">According to <a href="https://gs.statcounter.com/screen-resolution-stats">statcounter</a>, 1920x1080 resolution is the most used hence this site is optimized for such resolution, dynamic adjustment is on the works. / Please send me any livestream(s) you may want to have included on this site to carino@cock.li (Don't ask me for invites) / Goal of this website is to offer as many points of view as possible, censorship shows the untrust towards people's own judgement / Brought to you by <a href="https://carino.systems/">carino.systems</a></marquee>
             <div class="container-fluid p-2 p-md-4">
         <!-- Test -->
-                <iframe src="https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8&mute=1&autoplay=0" frameborder="0" id="canal100" class="d-none" muted></iframe>
+                <iframe src="" frameborder="0" id="canal100" class="d-none" muted></iframe>
         <!-- International -->
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UCoMdktPbSTixAyNGwb-UYkQ&mute=1&autoplay=0" frameborder="0" id="canal101" class="d-none" muted></iframe>
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UCSrZ3UV4jOidv8ppoVuvW9Q&mute=1&autoplay=0" frameborder="0" id="canal102" class="d-none" muted></iframe>
@@ -64,9 +64,13 @@
 
         <!-- Botones de Canales -->
         <div class="text-white" id="sidebar-wrapper">
+                
             <div class="sidebar-heading">
-                <button class="btn btn-secondary" id="menu-toggle"><i class="fa fa-bars"></i></button>
-                <span class="text-white-50">Control Room</span>
+                <form>
+                    <input type="button" class="btn btn-secondary" id="menu-toggle" value="HIDE"
+                           onclick="controlRoomToggle();">
+                </form>
+                
             </div>
             <div class="list-group list-group-flush overflow-auto">
 
@@ -78,15 +82,19 @@
                     </div>
                 </div>-->
                 <div class="region d-flex align-items-center" style="background-color: rgb(6, 94, 177); " >
-                    <button class="btn btn-secondary" id="int-toggle" onclick="expand()"><i class="fa fa-bars"></i></button>
-                    <h2 style="font-size: 28px;">International</h2>
+                    <form>
+                        <input type="button" class="btn btn-secondary" id="internationalToggle" value="+"
+                               onclick="internationalToggle();">
+                    </form>
                 </div>
+<!--
                 <script>
                     function expand(){
                         var element = document.getElementById("intDiv");
                         element.style.display = "none";
                     }
-                    </script>
+                </script>
+-->
                 <!--Comienza div oculto-->
                 <div id="intDiv" style="background-color: steelblue;">
                 <div class="canal d-flex align-items-center" activa="canal101">
