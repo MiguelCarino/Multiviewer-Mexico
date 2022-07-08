@@ -10,43 +10,43 @@ function conRoomToggle()
 function intToggle()
                         {
                           var t = document.getElementById("internationalToggle");
-                          if(t.value=="(-) International"){
-                            document.getElementById('intDiv').style.display = 'none'
-                              t.value="(+) International";}
-                          else if(t.value=="(+) International"){
+                          if(t.value=="(+) International"){
                             document.getElementById('intDiv').style.display = 'block'
                               t.value="(-) International";}
+                          else if(t.value=="(-) International"){
+                            document.getElementById('intDiv').style.display = 'none'
+                              t.value="(+) International";}
                         }
 
 function mexToggle()
                         {
                           var t = document.getElementById("mexicoToggle");
-                          if(t.value=="(-) Mexico"){
-                            document.getElementById('mexDiv').style.display = 'none'
-                              t.value="(+) Mexico";}
-                          else if(t.value=="(+) Mexico"){
+                          if(t.value=="(+) Mexico"){
                             document.getElementById('mexDiv').style.display = 'block'
                               t.value="(-) Mexico";}
+                          else if(t.value=="(-) Mexico"){
+                            document.getElementById('mexDiv').style.display = 'none'
+                              t.value="(+) Mexico";}
                         }
 function japToggle()
                         {
                           var t = document.getElementById("japanToggle");
-                          if(t.value=="(-) Japan"){
-                            document.getElementById('japDiv').style.display = 'none'
-                              t.value="(+) Japan";}
-                          else if(t.value=="(+) Japan"){
+                          if(t.value=="(+) Japan"){
                             document.getElementById('japDiv').style.display = 'block'
                               t.value="(-) Japan";}
+                          else if(t.value=="(-) Japan"){
+                            document.getElementById('japDiv').style.display = 'none'
+                              t.value="(+) Japan";}
                         }
 function usaToggle()
                         {
                           var t = document.getElementById("gringoToggle");
-                          if(t.value=="(-) USA"){
-                            document.getElementById('usaDiv').style.display = 'none'
-                              t.value="(+) USA";}
-                          else if(t.value=="(+) USA"){
+                          if(t.value=="(+) USA"){
                             document.getElementById('usaDiv').style.display = 'block'
                               t.value="(-) USA";}
+                          else if(t.value=="(-) USA"){
+                            document.getElementById('usaDiv').style.display = 'none'
+                              t.value="(+) USA";}
                         }
                         
 
