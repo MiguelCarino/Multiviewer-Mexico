@@ -48,9 +48,17 @@ function usaToggle()
                             document.getElementById('usaDiv').style.display = 'none'
                               t.value="(+) USA";}
                         }
-                        
-
-                        
+function ukToggle()
+                        {
+                          var t = document.getElementById("ukToggle");
+                          if(t.value=="(+) UK"){
+                            document.getElementById('ukDiv').style.display = 'block'
+                              t.value="(-) UK";}
+                          else if(t.value=="(-) UK"){
+                            document.getElementById('ukDiv').style.display = 'none'
+                              t.value="(+) UK";}
+                        }
+                   
 $("#menu-toggle").click(function(e){
     e.preventDefault();
     $("#wrapper").toggleClass("toggled");
