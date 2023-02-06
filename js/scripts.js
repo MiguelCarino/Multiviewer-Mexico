@@ -38,7 +38,7 @@ function japToggle()
                             document.getElementById('japDiv').style.display = 'none'
                               t.value="(+) Japan";}
                         }
-function usaToggle()
+function usToggle()
                         {
                           var t = document.getElementById("usaToggle");
                           if(t.value=="(+) USA"){
@@ -48,7 +48,7 @@ function usaToggle()
                             document.getElementById('usaDiv').style.display = 'none'
                               t.value="(+) USA";}
                         }
-function ukToggle()
+function ukiToggle()
                         {
                           var t = document.getElementById("ukToggle");
                           if(t.value=="(+) UK"){
