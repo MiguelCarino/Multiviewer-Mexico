@@ -30,7 +30,10 @@
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UCNye-wNBqNL5ZzHSJj3l8Bg&mute=1&autoplay=0" frameborder="0" id="int09" class="d-none" muted></iframe>
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UCshCsg1YVKli8yBai-wa78w&mute=1&autoplay=0" frameborder="0" id="int10" class="d-none" muted></iframe>
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UC_gUM8rL-Lrg6O3adPW9K1g&mute=1&autoplay=0" frameborder="0" id="int11" class="d-none" muted></iframe>
-          
+
+        <!-- Argentina -->
+        <iframe src="https://www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&mute=1&autoplay=0" frameborder="0" id="arg01" class="d-none" muted></iframe>
+
         <!-- Mexico -->
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UCUsm-fannqOY02PNN67C0KA&mute=1&autoplay=0" frameborder="0" id="mex01" class="d-none" muted></iframe>
                 <iframe src="https://www.youtube.com/embed/live_stream?channel=UC7k--FhnJzhPTrbtldMSoQQ&mute=1&autoplay=0" frameborder="0" id="mex02" class="d-none" muted></iframe>
@@ -194,6 +197,25 @@
                     </div>
                 </div>
                 <!--Fin div oculto-->
+                <!--Argentina-->
+                <div class="region d-flex align-items-center" style="background-color: rgb(6, 94, 177); " >
+                    <form>
+                        <input type="button" class="btn btn-secondary" id="argentinaToggle" value="(+) Argentina"
+                               onclick="argToggle();">
+                    </form>
+                </div>
+                <!--Comienza div oculto-->
+                <div id="argDiv" style="background-color: steelblue; display:none;">
+                    <div class="canal d-flex align-items-center" activa="arg01">
+                        <img src="logos/arg01.webp" class="rounded-circle" height="55px" width="55px" alt="">
+                        <div class="titulo">
+                            <h2>A24com</h2>
+                            <span>GRUPO AMERICA</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Termina div oculto-->
+                <!--Mexico-->
                 <div class="region d-flex align-items-center" style="background-color: rgb(6, 94, 177); " >
                     <form>
                         <input type="button" class="btn btn-secondary" id="mexicoToggle" value="(+) Mexico"

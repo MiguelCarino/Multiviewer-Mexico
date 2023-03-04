@@ -18,6 +18,17 @@ function intToggle()
                               t.value="(+) International";}
                         }
 
+function argToggle()
+                        {
+                          var t = document.getElementById("argentinaToggle");
+                          if(t.value=="(+) Argentina"){
+                            document.getElementById('argDiv').style.display = 'block'
+                              t.value="(-) Argentina";}
+                          else if(t.value=="(-) Argentina"){
+                            document.getElementById('argDiv').style.display = 'none'
+                              t.value="(+) Argentina";}
+                        }
+
 function mexToggle()
                         {
                           var t = document.getElementById("mexicoToggle");
