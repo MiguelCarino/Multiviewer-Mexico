@@ -29,6 +29,17 @@ function argToggle()
                               t.value="(+) Argentina";}
                         }
 
+function colToggle()
+                        {
+                          var t = document.getElementById("colombiaToggle");
+                          if(t.value=="(+) Colombia"){
+                            document.getElementById('colDiv').style.display = 'block'
+                              t.value="(-) Colombia";}
+                          else if(t.value=="(-) Colombia"){
+                            document.getElementById('colDiv').style.display = 'none'
+                              t.value="(+) Colombia";}
+                        }
+
 function mexToggle()
                         {
                           var t = document.getElementById("mexicoToggle");
